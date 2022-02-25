@@ -1,0 +1,107 @@
+// FOOTER SECTION    OR    CONTACT US & RECENT POST SECTION
+
+footer {
+	background-color: $firstColor;
+	color: $thirdColor;
+	padding: 100px 0px 10px 0;
+
+
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.leftFooter {
+		width: 33%;
+
+		h4 {
+			font-size: .6rem;
+			font-weight: 300;
+			padding: 0 0 30px 0;
+		}
+
+		p {
+			font-size: .1rem;
+			letter-spacing: .7px;
+			line-height: .9rem;
+			padding: 0 0 10px 0;
+		}
+
+		i {
+			padding: 30px 20px 90px 0;
+			font-size: 80%;
+		}
+
+	}
+
+	.middleFooter {
+		width: 33%;
+		padding: 0 0 0 60px;
+
+		h4 {
+			font-size: .6rem;
+			font-weight: 300;
+			padding: 0 0 30px 40px;
+			text-align: left;
+		}
+
+		li {
+			list-style-type: disc;
+			font-size: .1rem;
+			letter-spacing: .7px;
+			line-height: .9rem;
+			padding: 0 0 10px 0;
+
+		}
+	}
+
+	.rightFooter {
+		width: 33%;
+
+		h4 {
+			font-size: .6rem;
+			font-weight: 300;
+			padding: 0 0 30px 40px;
+			text-align: right;
+		}
+
+		p {
+			font-size: .1rem;
+			letter-spacing: .7px;
+			line-height: .9rem;
+			padding: 0 0 10px 0;
+			text-align: right;
+		}
+
+		form {
+			display: flex;
+			text-align: right;
+			width: 120%;
+			margin: 17px 0 0 75px;
+			padding: 0 0 0 0;
+
+			input {
+				border: none;
+				font-size: .3rem;
+				padding: 10px 80px 10px 10px;
+				color: #a2a2a2;
+			}
+
+			button {
+				background-color: $fourthColor;
+				border: none;
+				font-size: 70%;
+				padding: 10px 20px 10px 20px;
+			}
+		}
+	}
+
+	.creativeAgency {
+		p {
+			border-top: .1px solid #a2a2a2;
+			font-size: .5rem;
+			padding: 60px 0 60px 0;
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,193 @@
+@media (max-width: 940px) {
+	.contactHeader {
+		nav {
+			padding: 38px 0px 30px 12px;
+			background-color: #f6f6f6;
+			margin: 0px 16px 0px -47px;
+    		width: 100%;
+		}
+		h2 {
+		
+			padding: 254px 0 10px 5px;
+			&::before{
+					color: #333333;
+					top: 207px;
+					left: 9px;
+			}
+	}
+	}
+
+	
+	.leaveAComment {
+		form {
+			input {
+				margin-bottom: 40px;
+
+			}
+		}
+	}
+}
+
+
+@media (max-width: 768px) {
+	.contactHeader {
+		position: relative;
+
+		h2 {
+				margin-top: -20px;
+				padding: 262px 0 10px 0px;
+				&:before {
+					top: 211px;
+					left: 4px;
+				}
+			}
+
+			nav {
+
+				display: none;
+				
+			}
+
+		.logo {
+			display: block;
+			font-size: 1.3rem;
+			font-weight: 600;
+			color: $firstColor;
+			text-align: center;
+			padding: 20px 0 0 0;
+		}
+
+		.fa-bars {
+			display: block;
+			position: absolute;
+			top: 25px;
+			right: 30px;
+		}
+
+		
+		.mainMenu {
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 10;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background: $thirdColor;
+			display: none;
+		}
+	
+		.mainMenu .closeMenu {
+			display: block;
+			position: absolute;
+			top: 27px;
+			right: 52px;
+			color: $firstColor;
+	
+		}
+	
+		.mainMenu .closeMenu:hover {
+			color: $hoverColor;
+	
+		}
+	
+		.openMenu {
+			display: block;
+			top: 10px;
+			right: 0;
+	
+		}
+	
+		.openMenu:hover {
+			color: $hoverColor;
+		}
+	
+		.mainMenu li a {
+			color: $firstColor;
+			transform: none;
+	
+		}
+	
+		.mainMenu li a:hover {
+			background-color: none;
+			color: $hoverColor;
+		}
+			
+		} 
+
+		
+
+	
+
+	.getInTouch {
+		form {
+			display: flex;
+			flex-direction: column;
+
+			input {
+				margin-bottom: 40px;
+				width: 33%;
+			}
+		}
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.contactHeader {
+		height: 28vh;
+
+		h2 {
+			margin: 35px 0px 0px 22px;
+			padding: 179px 0px 0px 0px;
+			&::before{
+				top: 131px;
+    			left: 2px;
+			}
+		}
+	}
+
+	.iconContainer {
+		flex-direction: column;
+
+		.icon {
+			width: 100%;
+
+		}
+
+		.phoneIcon,
+		.mapIcon {
+			border-right: none
+		}
+
+		.phoneIcon {
+			padding: 30px 30px 20px 0px;
+			margin: 0;
+		}
+
+		.mapIcon {
+			padding: 0px 20px 20px 0px;
+			margin: 0;
+		}
+
+		.emailIcon {
+			padding: 20px 0px 20px 0px;
+			margin: 0;
+		}
+	}
+
+	.getInTouch {
+		form {
+
+
+			input {
+				width: 49%;
+			}
+		}
+	}
+
+
+}

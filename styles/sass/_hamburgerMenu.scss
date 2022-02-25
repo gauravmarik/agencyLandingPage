@@ -1,0 +1,20 @@
+.openMenu {
+	font-size: 1.5rem;
+	display: none;
+	cursor: pointer;
+	color: black;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background-color: $thirdColor;
+
+}
+
+.mainMenu,
+.closeMenu
+{
+	font-size: 2rem;
+	display: none;
+	cursor: pointer;
+}
+

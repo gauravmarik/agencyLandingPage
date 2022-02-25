@@ -1,0 +1,395 @@
+// BRANDING SECTION
+
+.branding {
+	background-color: $fourthColor;
+	height: 71vh;
+
+	.wrapper {
+		position: relative;
+		// background-color: red;
+		// padding: 30px auto;
+		margin: 0 auto;
+
+		.verticalLine {
+			border-left: .3px solid #a2a2a2;
+			height: 105px;
+			position: absolute;
+			left: 50%;
+			margin-left: -3px;
+			top: -51px;
+		}
+
+		.brandingImgContainer {
+			margin: 0px auto;
+			padding: 130px 0 0 0;
+			text-align: center;
+
+			img {
+				margin: 0 auto;
+				width: 30%;
+			}
+
+			.circleTextImg {
+				position: absolute;
+				top: 71px;
+				left: 310px;
+				width: 15%;
+			}
+		}
+
+		.brandingAndDesign {
+			display: flex;
+			width: 100%;
+			padding: 70px 0 10px 134px;
+			margin: 0 auto;
+
+
+			// text-align: center;
+			.brandingAndDesignLeft {
+				text-align: center;
+
+				h2 {
+					font-size: .6rem;
+					font-weight: 400;
+					text-align: center;
+					width: 72%;
+					padding: 0 0 15px 0;
+				}
+
+				p {
+					font-size: .3rem;
+					letter-spacing: .3px;
+					padding-bottom: 10px;
+					width: 72%;
+					text-align: center;
+				}
+			}
+
+			.brandingAndDesignRight {
+				text-align: center;
+
+				h2 {
+					font-size: .6rem;
+					font-weight: 400;
+					text-align: center;
+					width: 72%;
+					padding: 0 0 15px 0;
+
+				}
+
+				p {
+					font-size: .3rem;
+					letter-spacing: .3px;
+					padding-bottom: 10px;
+					width: 72%;
+					text-align: center;
+				}
+			}
+
+		}
+	}
+
+}
+
+
+
+
+
+
+// ECOSYSTEM SECTION
+
+.ecosystem {
+	position: relative;
+	text-align: center;
+	margin: 90px auto;
+
+	img {
+		border-radius: 50%;
+		width: 19%;
+		margin: 0 auto;
+	}
+
+	p {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+		font-size: .3rem;
+		letter-spacing: .7px;
+		color: #a2a2a2;
+		padding: 60px 0 40px 0;
+		font-style: italic;
+	}
+
+
+	.fa-angle-right {
+		position: absolute;
+		top: 124px;
+		right: 19%;
+		font-size: 130%;
+		color: #767676;
+	}
+
+	.fa-angle-left {
+		position: absolute;
+		top: 124px;
+		left: 19%;
+		font-size: 130%;
+
+	}
+
+}
+
+// UNIQUE DESIGN SECTION
+
+.uniqueDesign {
+	background-image: url(../assets/home-4.jpeg);
+	background-size: cover;
+	height: 70vh;
+	text-align: right;
+	width: 100%;
+
+	.uniqueDesignContainer {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		height: 60vh;
+	}
+
+	.leftUniqueDesign {
+		width: 55%;
+	}
+
+	// .magicPinContainer {
+	// 	width: 100%;
+	// 	display: flex;
+	// 	justify-content: flex-end;
+	// }
+
+	.rightUniqueDesignContainer {
+		display: flex;
+		width: 60%;
+		margin: 80px 20px 0 0;
+		flex-wrap: wrap;
+
+	}
+
+	// .magicContainer {
+	// 	width: 50%;
+	// 	display: flex;
+	// }
+
+	.icon {
+		padding: 0 20px 0 0;
+	}
+
+	.rightIconItem {
+		// display: flex;
+		text-align: left;
+		width: 77%;
+
+	}
+
+	.rightIconItem h2 {
+		padding: 0 0 10px 0;
+	}
+
+	.pinContainer {
+		display: flex;
+		width: 50%;
+	}
+
+	.rightUniqueDesignItem {
+		display: flex;
+		width: 50%;
+		margin: 30px 0px 0 0;
+	}
+
+	.pinRight {
+		// display: flex;
+	}
+
+	i {
+		border: 1px solid black;
+		border-radius: 60%;
+		// width: 50%;
+		padding: 10px;
+		// margin: 10px;
+		text-align: center;
+	}
+
+
+	h2 {
+		font-size: .4rem;
+		font-weight: 400;
+	}
+
+	p {
+		font-size: .3rem;
+		letter-spacing: .7px;
+		color: #a2a2a2;
+	}
+
+	.fa-map-pin {
+		// padding: 10px 50px 10px 80px;
+		// width: 4%;
+		// text-align: center;
+		// height: 10%;
+		// margin: 30px;
+	}
+}
+
+
+
+.magic,
+.pin,
+.tv,
+.shoppingBag,
+.sliders,
+.smile {
+	// border: 1px solid black;
+	// border-radius: 50%;
+	// width: 3%;
+}
+
+// MEET OUR TEAM SECTION
+
+.meetOur {
+	height: 120vh;
+
+
+	.wrapper {
+		position: relative;
+
+		.vl {
+			border-left: .3px solid #a2a2a2;
+			height: 55px;
+			position: absolute;
+			left: 50%;
+			margin-left: -3px;
+			top: -60px;
+		}
+
+		h3 {
+			font-size: .8rem;
+			font-weight: 300;
+			text-align: center;
+			margin: 60px 0 50px 0;
+			padding: 50px 0 50px 0;
+		}
+
+		.meetOurTopImgContainer {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+
+			.teamPlayers {
+				background-color: $thirdColor;
+				width: 45%;
+				padding: 120px 7px 0px 30px;
+				margin: 0 0 20px 0;
+
+				h4 {
+					font-size: .6rem;
+					font-weight: 300;
+					padding: 30px 0 20px 0;
+				}
+
+				p {
+					font-size: .3rem;
+					letter-spacing: .7px;
+					color: #81897e;
+				}
+			}
+
+			img {
+				width: calc(29% - 40px);
+				margin: 0 0 20px 20px;
+			}
+		}
+
+		.meetOurBottomImgContainer {
+			display: flex;
+			justify-content: center;
+
+			img {
+				width: calc(28% - 40px);
+				margin: 0 20px 20px 4px;
+			}
+
+			.wantTo {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				h4 {
+					font-size: .6rem;
+					font-weight: 300;
+					// padding: 30px 0 20px 0;
+					width: 85%;
+					text-align: center;
+					padding: 30px 0 0 30px;
+
+				}
+			}
+
+
+
+
+		}
+	}
+
+}
+
+// .meetOurImgContainer img {
+// 	width: calc(33% - 30px);
+// 	margin: 10px;
+// }
+
+// .wantTo {
+// 	background-color: $thirdColor;
+// 	width: 33%;
+// }
+
+// DROP US
+
+.dropUs {
+	display: flex;
+
+
+
+	.dropUsLeft {
+		background-color: $fourthColor;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 80%;
+	}
+
+	h3 {
+		font-size: .8rem;
+		font-weight: 300;
+		margin: 0 0px 40px 0;
+	}
+
+	p {
+		font-size: .3rem;
+		letter-spacing: .7px;
+		line-height: .9rem;
+		color: #81897e;
+		padding-bottom: 40px;
+		width: 70%;
+		text-align: center;
+		margin: 0px 0 10px 0;
+	}
+
+	button {
+		border: none;
+		font-size: .5rem;
+		font-family: 'open sans', sans-serif;
+		font-weight: 550;
+		padding: 15px 25px 15px 25px;
+		letter-spacing: .9px;
+		// line-height: .3px;
+	}
+}

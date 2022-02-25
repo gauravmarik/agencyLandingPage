@@ -1,0 +1,21 @@
+// FOOTER SECTION    OR    CONTACT US & RECENT POST SECTION
+
+footer {
+	background-color: $firstColor;
+	color: $thirdColor;
+}
+
+footer .wrapper {
+	display: flex;
+}
+
+
+
+.middleFooter li {
+	// list-style-type: decimal;
+	font-size: .3rem;
+}
+
+.creativeAgency p {
+	border-top: 2px solid black;
+}

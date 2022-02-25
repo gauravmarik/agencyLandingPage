@@ -1,0 +1,227 @@
+@media (max-width: 940px) {
+	.blogHeader {
+
+		nav {
+		
+			padding: 30px 0px 30px 132px;
+		background-color: #f6f6f6;
+		margin: 0px 16px 0px -154px;
+		width: 112%;
+		}
+
+		.logo {
+			display: none;
+		}
+
+		.fa-bars {
+			display: none;
+		}
+
+	}
+
+	.leaveAComment {
+		form {
+			input {
+				margin-bottom: 40px;
+
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	.blogHeader {
+		position: relative;
+
+		nav {
+
+			display: none;
+		}
+
+		.logo {
+			display: block;
+			font-size: 1.3rem;
+			font-weight: 600;
+			color: $firstColor;
+			text-align: center;
+			padding: 20px 0 0 0;
+		}
+
+		.fa-bars {
+			display: block;
+			position: absolute;
+			top: 25px;
+			right: 30px;
+		}
+
+		.mainMenu {
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 10;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background: $thirdColor;
+			transition: top 1s ease;
+			display: none;
+		}
+	
+		.mainMenu .closeMenu {
+			display: block;
+			position: absolute;
+			top: 27px;
+			right: 52px;
+			color:$firstColor;
+	
+		}
+	
+		.mainMenu .closeMenu:hover {
+			color: $hoverColor;
+	
+		}
+	
+		.openMenu {
+			display: block;
+			top: 10px;
+			right: 0;
+	
+		}
+	
+		.openMenu:hover {
+			color: $hoverColor;
+		}
+	
+		.mainMenu li a {
+			color: $firstColor;
+			text-decoration: none;
+	
+		}
+	
+		.mainMenu li a:hover {
+			background-color: none;
+			color: $hoverColor;
+			/* font-size: 1.1rem; */
+			// transform: 4s all ease;
+			// padding: 20px;
+			// margin: 30px;
+		}
+	
+	}
+
+	.leaveAComment {
+		form {
+			display: flex;
+			flex-direction: column;
+
+			input {
+				margin-bottom: 40px;
+				width: 33%;
+			}
+		}
+	}
+}
+
+
+
+
+
+// h2 {
+// 	padding: 60px 0 10px 60px;
+// 	margin: 30px 0 0 40px;
+// 	position: relative;
+// 	color: $firstColor;
+
+// 	&::before {
+// 		content: '__';
+// 		color: $firstColor;
+// 		top: 0;
+// 		left: 60px;
+// 		position: absolute;
+// 	}
+// }
+
+
+@media (max-width: 480px) {
+	.blogHeader {
+		height: 55vh;
+
+	}
+
+	.howTo {
+		h2 {
+			font-size: 1.1rem;
+
+		}
+
+		.alexContainer {
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+
+
+
+			.alex {
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				// text-align: left;
+
+				.alexRight {
+
+					// flex-direction: row;
+					h3 {
+						padding-left: 0;
+						margin-left: 0;
+						text-align: left;
+						padding-top: 20px;
+					}
+				}
+
+				p {
+					padding-left: 0;
+					margin-left: 0;
+					text-align: left;
+				}
+			}
+		}
+	}
+
+	.comments {
+		.commentsFirstContainer {
+			img {
+				width: 12%;
+				height: 23%;
+
+			}
+		}
+
+		.commentsSecondContainer {
+			img {
+				width: 12%;
+				height: 23%;
+
+			}
+		}
+	}
+
+	.leaveAComment {
+		form {
+
+
+			input {
+				width: 37%;
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+.blogHeader {
+	background-image: url(../assets/blog-1.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 30px 30px 30px 133px;
+
+		.leftNav {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.rightNav {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+
+		a {
+			text-decoration: none;
+			color: $firstColor;
+			font-size: .6rem;
+			padding: 0 30px;
+
+		}
+
+		button {
+			text-decoration: none;
+			border: none;
+			padding: 12px 44px 0 10px;
+			font-size: .5rem;
+			background-color: transparent;
+		}
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.fa-bars {
+		display: none;
+	}
+}

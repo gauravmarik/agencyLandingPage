@@ -1,0 +1,53 @@
+html {
+	font-family: 'montserrat', sans-serif;
+	font-size: 125%;
+	color: $firstColor;
+}
+
+h1 {
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: $firstColor;
+}
+
+h2 {
+	font-size: 1.3rem;
+	color: $firstColor;
+}
+
+p {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 24px;
+	letter-spacing: .3px;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.wrapper {
+	max-width: 1080px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+// ul {
+// 	list-style: none;
+// 	margin: 0;
+// 	padding: 0;
+// }

@@ -1,0 +1,26 @@
+$firstColor: #333333;
+$secondColor: #ffffff;
+$thirdColor: #f6f6f6;
+$fourthColor: #c3dab7;
+$hoverColor: #f06100;
+
+@import 'setup';
+@import 'general';
+@import 'header';
+@import 'hamburgerMenu';
+@import 'homeMainSections';
+@import 'footer';
+@import 'mediaQ';
+@import 'blogGeneral';
+@import 'blogHeader';
+@import 'blogHamburgerMenu';
+@import 'blogMainSections';
+@import 'blogFooter';
+@import 'blogMediaQ';
+@import 'contactGeneral';
+@import 'contactHeader';
+@import 'contactHamburgerMenu';
+@import 'contactMainSections';
+@import 'contactMediaQ';
+
+

@@ -1,0 +1,152 @@
+.contactDetails {
+	width: 50%;
+
+	h3 {
+		font-size: 14px;
+		line-height: 44px;
+		letter-spacing: 1px;
+	}
+
+	p {
+		font-size: .3rem;
+		line-height: 24px;
+		letter-spacing: .7px;
+		color: #a2a2a2;
+	}
+
+}
+
+
+.iconContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+
+	.icon {
+		width: 25%;
+		// display: flex;
+		// justify-content: center;
+		// align-items: flex-start;
+		// flex-direction: column;
+		// text-align: center;
+		margin: 70px 0;
+
+		i {
+			padding-bottom: 20px;
+		}
+
+		h4 {
+			font-size: .4rem;
+			padding-bottom: 10px;
+		}
+
+		p {
+			font-size: .3rem;
+			line-height: 24px;
+			letter-spacing: .7px;
+			color: #a2a2a2;
+			padding-bottom: 5px;
+		}
+
+	}
+
+	.phoneIcon,
+	.mapIcon {
+		border-right: 1px #a2a2a2 solid;
+	}
+
+	.phoneIcon {
+		padding: 20px 30px 46px 0px;
+	}
+
+	.mapIcon {
+		padding: 20px 20px 70px 0px;
+	}
+
+	.emailIcon {
+		padding: 20px 0px 0px 0px;
+	}
+
+}
+
+.getInTouch {
+	h3 {
+		font-size: 14px;
+		line-height: 44px;
+		letter-spacing: 1px;
+	}
+
+	p {
+		font-size: .3rem;
+		letter-spacing: .7px;
+		color: #a2a2a2;
+		padding-bottom: 90px;
+	}
+
+	form {
+		width: 100%;
+		padding-bottom: 100px;
+
+		input,
+		textarea,
+		button {
+			border-top-style: none;
+			border-right-style: none;
+			border-left-style: none;
+			background: none;
+			padding-bottom: 10px;
+			margin-right: 81px;
+			font-size: .4rem;
+			letter-spacing: .7px;
+			color: #a2a2a2;
+			padding: 0 50px 20px 0;
+			font-family: 'Open Sans', sans-serif;
+			border-bottom-style: .3px solid #a2a2a2;
+			width: 25%;
+		}
+
+		input[type='text'] {
+			&::placeholder {
+				font-size: .4rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 130px;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+
+		input[type='email'] {
+			&::placeholder {
+				font-size: .4rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 90px;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+
+		textarea {
+			resize: none;
+			width: 91.5%;
+			height: 180px;
+			padding-top: 40px;
+			border-bottom-style: .2px #a2a2a2 solid;
+
+			&::placeholder {
+				font-size: .4rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 90px;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+
+		button {
+			color: $firstColor;
+			padding: 40px 0 10px 0;
+			font-family: .4rem;
+			font-weight: 500;
+			width: 10%;
+		}
+	}
+}

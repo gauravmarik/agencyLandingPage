@@ -1,0 +1,374 @@
+@media (max-width: 940px) {
+	header {
+		nav {
+		
+			padding: 30px 0px 30px 132px;
+    		background-color: #f6f6f6;
+   			margin: 0px 16px 0px -154px;
+    		width: 112%;
+
+
+		li {
+			margin: 0px 0px 0px 0px;
+			padding: 0px 0px 0px 0px;
+		}
+
+		button {
+			text-decoration: none;
+			border: none;
+			padding: 12px 38px 0px 10px;
+			font-size: 0.5rem;
+			background-color: transparent;
+		}
+
+	}
+
+
+		.logo {
+			display: none;
+		}
+
+		.fa-bars {
+			display: none;
+		}
+	}
+
+	.branding {
+		.wrapper {
+			.brandingImgContainer {
+				.circleTextImg {
+					left: 240px;
+				}
+			}
+
+		}
+	}
+
+	.uniqueDesign {
+		background-position: right;
+	}
+
+	.meetOurTopImgContainer {
+
+		.teamPlayers {
+			height: 20%;
+
+			p {
+				padding: 0 0 50px 0;
+			}
+		}
+
+		img {
+			height: 20%;
+
+		}
+	}
+
+	footer {
+		.middleFooter {
+			padding-left: 10px;
+		}
+
+		.rightFooter {
+			form {
+				margin-left: 7px;
+
+				input {
+					padding-right: 69px;
+				}
+			}
+		}
+	}
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	header {
+		position: relative;
+		
+
+		nav {
+
+			display: none;
+		}
+
+		.logo {
+			display: block;
+			font-size: 1.3rem;
+			font-weight: 600;
+			color: $firstColor;
+			text-align: center;
+			padding: 20px 0 0 0;
+			position: fixed;
+			top: 10px;
+			left: 40%;
+			}
+		
+
+		.fa-bars {
+			display: block;
+			position: absolute;
+			top: 25px;
+			right: 30px;
+		}
+
+
+	.mainMenu {
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 10;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: $thirdColor;
+		display: none;
+	}
+
+	.mainMenu .closeMenu {
+		display: block;
+		position: absolute;
+		top: 27px;
+		right: 52px;
+		color: $firstColor;
+
+	}
+
+	.mainMenu .closeMenu:hover {
+		color: $hoverColor;
+
+	}
+
+	.openMenu {
+		display: block;
+		top: 10px;
+		right: 0;
+
+	}
+
+	.openMenu:hover {
+		color: $hoverColor;
+	}
+
+	
+
+	.mainMenu li a {
+		color: $firstColor;
+		text-decoration: none;
+	}
+
+	.mainMenu li a:hover {
+		background-color: none;
+		color: $hoverColor;
+		/* font-size: 1.1rem; */
+		// transform: 4s all ease;
+		// padding: 20px;
+		// margin: 30px;
+
+	}
+	}
+
+	.branding {
+		height: 90vh;
+
+		.wrapper {
+			.verticalLine {
+				display: none;
+			}
+
+			.brandingImgContainer {
+				img {
+					width: 80%;
+				}
+
+				.circleTextImg {
+					top: 59px;
+					left: 2px;
+					width: 23%;
+				}
+			}
+
+
+		}
+
+	}
+
+
+	.uniqueDesign {
+		height: 80vh;
+
+		.uniqueDesignContainer {
+			.leftUniqueDesign {
+				width: 20%;
+			}
+		}
+	}
+
+	footer {
+		.rightFooter {
+			form {
+				input {
+					padding-right: 20px;
+				}
+			}
+		}
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	header {
+		.logo {
+			left: 30%;
+		}
+	}
+
+	.branding {
+		.wrapper {
+			.brandingImgContainer {
+				.circleTextImg {
+					top: 84px;
+				}
+			}
+
+
+			.brandingAndDesign {
+				flex-direction: column;
+				padding-left: 90px;
+
+				.brandingAndDesignLeft {
+					// text-align: center;
+					padding-bottom: 30px;
+				}
+			}
+		}
+	}
+
+	.ecosystem {
+		img {
+			width: 38%;
+		}
+	}
+
+	.uniqueDesign {
+		height: 95vh;
+
+		.uniqueDesignContainer {
+			display: block;
+
+			.rightUniqueDesignContainer {
+				display: block;
+				width: 100%;
+				padding: 20px 0 0 20px;
+
+				.rightUniqueDesignItem {
+					width: 100%;
+				}
+
+				.icon {
+					display: 100%;
+				}
+			}
+		}
+	}
+
+	.meetOur {
+		height: 370vh;
+
+		.wrapper {
+			.vl {
+				display: none;
+			}
+
+			.meetOurTopImgContainer {
+				flex-direction: column;
+				width: 100%;
+
+				.teamPlayers {
+					width: 100%;
+				}
+
+				img {
+					width: 100%;
+					margin: 0 0 20px 0px;
+				}
+			}
+
+			.meetOurBottomImgContainer {
+				flex-direction: column;
+				width: 100%;
+
+				img {
+					width: 100%;
+					margin: 0 0 20px 0;
+				}
+
+				.wantTo {
+					h4 {
+						padding-top: 75px;
+					}
+
+				}
+
+			}
+
+
+		}
+	}
+
+	.dropUs {
+		flex-direction: column;
+		width: 100%;
+
+		.dropUsLeft {
+			width: 100%;
+			padding: 60px 0;
+		}
+	}
+
+	footer {
+		.wrapper {
+			flex-direction: column;
+		}
+
+		.leftFooter {
+			width: 100%;
+
+		}
+
+		.middleFooter {
+			width: 100%;
+
+			h4 {
+				padding-left: 0;
+			}
+		}
+
+		.rightFooter {
+			width: 100%;
+			padding-bottom: 40px;
+
+			h4 {
+				text-align: left;
+				padding: 40px 0 30px 0;
+
+			}
+
+			p {
+				text-align: left;
+
+			}
+
+			form {
+				margin-left: 0px
+			}
+		}
+	}
+
+}

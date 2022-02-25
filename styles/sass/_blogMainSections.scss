@@ -1,0 +1,280 @@
+// HOW TO RUN A CREATIVE AGENCY SECTION
+
+.howTo {
+	padding: 90px 0 20px 0;
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: .3rem;
+		letter-spacing: .7px;
+		color: #a2a2a2;
+		padding-bottom: 40px;
+
+		span {
+			color: $firstColor;
+		}
+	}
+
+
+	.alexContainer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: #a2a2a2 .5px solid;
+		margin-top: 0;
+		padding: 30px 0 50px 0;
+
+		.alex {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+
+
+			img {
+				border-radius: 50%;
+			}
+
+			.alexRight {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				margin: 0px 0 0 20px;
+			}
+		}
+
+
+
+		h3 {
+			font-size: .5rem;
+			font-weight: 400;
+		}
+
+
+	}
+
+	.howToPara {
+
+		p {
+			padding-bottom: 25px;
+		}
+
+		p:nth-of-type(1) {
+			font-weight: 700;
+			color: $firstColor;
+			padding-top: 70px;
+		}
+	}
+
+	h3 {
+		font-size: .5rem;
+		font-weight: 400;
+		display: inline;
+	}
+
+	i {
+		font-size: .4rem;
+		padding-left: 8px;
+	}
+}
+
+
+
+
+// RELATED POSTS SECTION
+
+.relatedPosts {
+	h4 {
+		border-bottom: solid 1px #a2a2a2;
+		padding: 30px 0 20px 0;
+		margin: 50px 0 60px 0;
+	}
+
+	.julyImgContainer {
+		display: flex;
+
+		h5 {
+			font-size: .4rem;
+			font-weight: 400;
+			padding: 20px 0 100px 0;
+		}
+
+	}
+
+	.july25,
+	.july26 {
+		padding-right: 20px;
+	}
+}
+
+
+
+// COMMENTS SECTION
+
+.comments {
+
+	h4 {
+		border-bottom: solid 1px #a2a2a2;
+		padding: 0 0 20px 0px;
+		margin: 0 0 50px 0;
+	}
+
+
+
+	.commentsFirstContainer {
+		display: flex;
+		justify-content: space-between;
+
+		img {
+			width: 7%;
+			height: 23%
+		}
+
+		.commentsFirstRight {
+			background-color: #f6f6f6;
+			padding: 20px 0 10px 25px;
+			width: 90%;
+
+			h5 {
+				font-size: .4rem;
+				font-weight: 400;
+				padding: 0px 0 15px 0;
+			}
+
+			p {
+				font-size: .3rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 15px;
+			}
+
+		}
+
+
+	}
+
+	.commentsSecondContainer {
+		display: flex;
+		justify-content: space-between;
+		margin: 30px 0 0 0;
+
+		img {
+			width: 7%;
+			height: 23%
+		}
+
+		.commentsSecondRight {
+			background-color: #f6f6f6;
+			padding: 20px 0 10px 25px;
+			width: 90%;
+
+			h5 {
+				font-size: .4rem;
+				font-weight: 400;
+				padding: 0px 0 15px 0;
+			}
+
+			p {
+				font-size: .3rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 15px;
+				
+			}
+
+		}
+
+
+	}
+
+}
+
+
+
+// LEAVE A COMMENT SECTION
+
+
+.leaveAComment {
+	h4 {
+		border-bottom: solid 1px #a2a2a2;
+		padding: 0 0 20px 0px;
+		margin: 100px 0 50px 0;
+	}
+
+	form {
+		width: 111%;
+		padding-bottom: 100px;
+
+		input,
+		textarea,
+		button {
+			border-top-style: none;
+			border-right-style: none;
+			border-left-style: none;
+			background: none;
+			padding-bottom: 10px;
+			margin-right: 85px;
+			font-size: .4rem;
+			letter-spacing: .7px;
+			padding: 0 0px 20px 0;
+			font-family: 'Open Sans', sans-serif;
+			border-bottom-style: .3px solid #a2a2a2;
+			width: 25%;
+			cursor: pointer;
+		}
+
+		input[type='text'] {
+			&::placeholder {
+				font-size: .4rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 130px;
+				font-family: 'Open Sans', sans-serif;
+			}
+			&:hover {
+				color: $hoverColor;
+			}
+		}
+
+		input[type='email'] {
+			&::placeholder {
+				font-size: .4rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 90px;
+				font-family: 'Open Sans', sans-serif;
+			}
+		}
+
+		textarea {
+			resize: none;
+			width: 90%;
+			height: 180px;
+			padding-top: 40px;
+			border-bottom-style: .2px #a2a2a2 solid;
+
+			&::placeholder {
+				font-size: .4rem;
+				letter-spacing: .7px;
+				color: #a2a2a2;
+				padding-bottom: 90px;
+				font-family: 'Open Sans', sans-serif;
+			}
+			
+		}
+
+		button {
+			color: $firstColor;
+			padding: 40px 0 10px 0;
+			font-family: .4rem;
+			font-weight: 400;
+			width: 11%;
+			&:hover{
+				color: $hoverColor;
+			}
+		}
+	}
+}
+
