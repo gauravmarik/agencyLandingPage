@@ -776,8 +776,8 @@ footer .rightFooter form {
 }
 footer .rightFooter form input {
 	border: none;
-	font-size: 0.3rem;
-	padding: 10px 80px 10px 10px;
+	font-size: 0.5rem;
+	padding: 10px 65px 10px 10px;
 	color: #a2a2a2;
 }
 footer .rightFooter form button {
@@ -942,7 +942,7 @@ footer .creativeAgency p {
 	}
 
 	footer .rightFooter form input {
-		padding-right: 51px;
+		padding-right: 81px;
 	}
 }
 /* Landscape phones and down */
@@ -1193,7 +1193,7 @@ html ul {
 	font-size: 1.5rem;
 }
 .howTo p {
-	font-size: 0.3rem;
+	font-size: 0.5rem;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
 	padding-bottom: 40px;
@@ -1312,7 +1312,7 @@ html ul {
 	padding: 0px 0 15px 0;
 }
 .comments .commentsFirstContainer .commentsFirstRight p {
-	font-size: 0.3rem;
+	font-size: 0.5rem;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
 	padding-bottom: 15px;
@@ -1341,7 +1341,7 @@ html ul {
 	padding: 0px 0 15px 0;
 }
 .comments .commentsSecondContainer .commentsSecondRight p {
-	font-size: 0.3rem;
+	font-size: 0.5rem;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
 	padding-bottom: 15px;
@@ -1365,7 +1365,7 @@ html ul {
 	background: none;
 	padding-bottom: 10px;
 	margin-right: 85px;
-	font-size: 0.4rem;
+	font-size: 0.9rem;
 	letter-spacing: 0.7px;
 	padding: 0 0px 20px 0;
 	font-family: "Open Sans", sans-serif;
@@ -1374,7 +1374,7 @@ html ul {
 	cursor: pointer;
 }
 .leaveAComment form input[type="text"]::-webkit-input-placeholder {
-	font-size: 0.4rem;
+	font-size: 0.5rem;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
 	padding-bottom: 130px;
@@ -1745,7 +1745,7 @@ html ul {
 	flex-wrap: wrap;
 	background-color: #f6f6f6;
 	margin: 0px 16px 0px -154px;
-	width: 105%;
+	width: 110%;
 }
 .contactHeader nav .leftNav {
 	display: -webkit-box;
@@ -1823,7 +1823,7 @@ html ul {
 	letter-spacing: 1px;
 }
 .contactDetails p {
-	font-size: 0.3rem;
+	font-size: 0.5rem;
 	line-height: 24px;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
@@ -1851,7 +1851,7 @@ html ul {
 	padding-bottom: 10px;
 }
 .iconContainer .icon p {
-	font-size: 0.3rem;
+	font-size: 0.5rem;
 	line-height: 24px;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
@@ -1877,7 +1877,7 @@ html ul {
 	letter-spacing: 1px;
 }
 .getInTouch p {
-	font-size: 0.3rem;
+	font-size: 0.5rem;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
 	padding-bottom: 90px;
@@ -1895,7 +1895,7 @@ html ul {
 	background: none;
 	padding-bottom: 10px;
 	margin-right: 81px;
-	font-size: 0.4rem;
+	font-size: 0.5rem;
 	letter-spacing: 0.7px;
 	color: #a2a2a2;
 	padding: 0 50px 20px 0;
